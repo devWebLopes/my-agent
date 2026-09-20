@@ -15,6 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@ai-sdk/google": "^4.0.72",
     "@vercel/connect": "1.0.0",
     "ai": "^7.0.93",
     "eve": "^0.55.0",

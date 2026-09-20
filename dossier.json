@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "id": "cliente-demo-310c4e",
+    "clientId": "cliente-demo",
+    "createdAt": "2026-09-16T03:14:40.753Z",
+    "version": 1,
+    "status": "partial",
+    "sourcesCount": 2,
+    "dossierPath": "d:\\estudos\\prototipos\\auxiliar\\sitemaker\\my-agent\\dossier.json",
+    "markdownPath": "d:\\estudos\\prototipos\\auxiliar\\sitemaker\\my-agent\\dossie.md"
+  },
+  "business": {
+    "name": "DIRECAO GERAL",
+    "legalName": "BANCO DO BRASIL SA",
+    "cnpj": "00.000.000/0001-91",
+    "foundedDate": "1966-08-01",
+    "status": "ATIVA",
+    "cnae": "Bancos múltiplos, com carteira comercial",
+    "qsa": [
+      "ALAN CARLOS GUEDES DE OLIVEIRA (Diretor)",
+      "ALBERTO MARTINHAGO VIEIRA (Diretor)",
+      "ALEXANDRE BOCCHETTI NUNES (Diretor)",
+      "ANA CRISTINA ROSA GARCIA (Diretor)",
+      "ANELIZE LENZI RUAS DE ALMEIDA (Conselheiro de Administração)",
+      "ANTONIO CARLOS WAGNER CHIARELLO (Diretor)",
+      "BARBARA DOS SANTOS LOPES FREITAS (Diretor)",
+      "BARBARA FAVERO DOS SANTOS BOSI (Diretor)",
+      "BRUNO ALVES DO NASCIMENTO (Diretor)",
+      "CARLA NESI (Diretor)",
+      "CARLOS EDUARDO GUEDES PINTO (Diretor)",
+      "ELISA VIEIRA LEONEL (Conselheiro de Administração)",
+      "EULER ANTONIO LUZ MATHIAS (Diretor)",
+      "FABIO FRANCO BARBOSA FERNANDES (Conselheiro de Administração)",
+      "FELIPE GUIMARAES GEISSLER PRINCE (Diretor)",
+      "FERNANDO FLORENCIO CAMPOS (Conselheiro de Administração)",
+      "FRANCISCO AUGUSTO LASSALVIA (Diretor)",
+      "GILMAR DALILO CEZAR WANDERLEY (Diretor)",
+      "GILSON ALCEU BITTENCOURT (Diretor)",
+      "JOAO VAGNES DE MOURA SILVA (Diretor)",
+      "JOSE RICARDO SASSERON (Diretor)",
+      "JOSE SALVADOR CONSTANTINO ZARCOS FILHO (Diretor)",
+      "JULIO CESAR VEZZARO (Diretor)",
+      "KAMILLO TONONI OLIVEIRA SILVA (Diretor)",
+      "LARISSA DA SILVA NOVAIS VIEIRA (Diretor)",
+      "MARCELO HENRIQUE GOMES DA SILVA (Diretor)",
+      "MARCIO LUIZ DE ALBUQUERQUE OLIVEIRA (Conselheiro de Administração)",
+      "MARCO GEOVANNE TOBIAS DA SILVA (Diretor)",
+      "MARIANA PIRES DIAS (Diretor)",
+      "MARISA REGHINI FERREIRA MATTOS (Diretor)",
+      "NEUDSON PERES DE FREITAS (Diretor)",
+      "PAULA SAYAO CARVALHO ARAUJO (Diretor)",
+      "PEDRO BRAMONT (Diretor)",
+      "PEDRO HENRIQUE DUARTE OLIVEIRA (Diretor)",
+      "RAFAEL MACHADO GIOVANELLA (Diretor)",
+      "RODRIGO COSTA VASCONCELOS (Diretor)",
+      "RODRIGO MULINARI (Diretor)",
+      "ROSIANE BARBOSA LAVIOLA (Diretor)",
+      "SELMA CRISTINA ALVES SIQUEIRA (Conselheiro de Administração)",
+      "TARCIANA PAULA GOMES MEDEIROS (Presidente)",
+      "VALMIR PEDRO ROSSI (Conselheiro de Administração)"
+    ],
+    "capitalSocial": "R$ 120.000.000.000,00",
+    "contact": {
+      "phone": "6134939002",
+      "website": "https://www.google.com/",
+      "address": "SAUN QUADRA 5 BLOCO B TORRE I, II, III, SN (ANDAR T I SL S101 A S1602 T II SL C101 A C1602 TIII SL N101 A N1602), ASA NORTE, BRASILIA - DF, CEP 70040912"
+    }
+  },
+  "social": [],
+  "visualIdentity": {
+    "colors": [
+      {
+        "role": "background",
+        "hex": "#ffffff",
+        "source": "website:css(frequência)"
+      },
+      {
+        "role": "text",
+        "hex": "#1f1f1f",
+        "source": "website:css(frequência)"
+      },
+      {
+        "role": "primary",
+        "hex": "#0b57d0",
+        "source": "website:css(frequência)"
+      },
+      {
+        "role": "secondary",
+        "hex": "#c2e7ff",
+        "source": "website:css(frequência)"
+      },
+      {
+        "role": "accent",
+        "hex": "#001d35",
+        "source": "website:css(frequência)"
+      }
+    ],
+    "typography": [
+      {
+        "role": "body",
+        "family": "Google Sans Text",
+        "source": "website:css(body/frequência)"
+      }
+    ],
+    "logo": {
+      "url": "https://www.google.com/images/branding/google_wordmark/v1/1x/googlelogo_color_white_background_272x92dp.png",
+      "source": "website:img[logo]",
+      "format": "png"
+    }
+  },
+  "assets": [],
+  "confidence": [
+    {
+      "field": "business.name",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)",
+      "note": "conflito: DIRECAO GERAL (cnpj:00000000000191 (brasilapi)) prevaleceu sobre Google (https://www.google.com)"
+    },
+    {
+      "field": "business.legalName",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.cnpj",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.phone",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.website",
+      "level": "high",
+      "source": "https://www.google.com"
+    },
+    {
+      "field": "business.address",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.foundedDate",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.status",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.cnae",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.qsa",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "business.capitalSocial",
+      "level": "high",
+      "source": "cnpj:00000000000191 (brasilapi)"
+    },
+    {
+      "field": "visualIdentity.colors.background",
+      "level": "low",
+      "source": "website:css(frequência)"
+    },
+    {
+      "field": "visualIdentity.colors.text",
+      "level": "low",
+      "source": "website:css(frequência)"
+    },
+    {
+      "field": "visualIdentity.colors.primary",
+      "level": "low",
+      "source": "website:css(frequência)"
+    },
+    {
+      "field": "visualIdentity.colors.secondary",
+      "level": "low",
+      "source": "website:css(frequência)"
+    },
+    {
+      "field": "visualIdentity.colors.accent",
+      "level": "low",
+      "source": "website:css(frequência)"
+    },
+    {
+      "field": "visualIdentity.typography.body",
+      "level": "low",
+      "source": "website:css(body/frequência)"
+    },
+    {
+      "field": "visualIdentity.logo",
+      "level": "medium",
+      "source": "website:img[logo]"
+    }
+  ],
+  "missing": [
+    {
+      "field": "visualIdentity.favicon",
+      "reason": "nenhum <link rel=\"icon\"> declarado (sem fallback especulativo para /favicon.ico)"
+    },
+    {
+      "field": "business.description",
+      "reason": "descrição não encontrada nas fontes"
+    },
+    {
+      "field": "business.category",
+      "reason": "categoria/nicho não identificado"
+    },
+    {
+      "field": "business.contact.email",
+      "reason": "e-mail não publicado nas fontes"
+    },
+    {
+      "field": "business.contact.hours",
+      "reason": "horário de funcionamento não publicado"
+    },
+    {
+      "field": "social",
+      "reason": "nenhum perfil social coletado"
+    },
+    {
+      "field": "maps",
+      "reason": "ficha de Google Maps não coletada (ou GOOGLE_MAPS_API_KEY ausente)"
+    }
+  ],
+  "sources": [
+    {
+      "type": "cnpj",
+      "url": "cnpj:00000000000191",
+      "fetchedAt": "2026-09-16T03:14:40.351Z",
+      "status": "ok",
+      "title": "DIRECAO GERAL (00.000.000/0001-91)"
+    },
+    {
+      "type": "website",
+      "url": "https://www.google.com/",
+      "fetchedAt": "2026-09-16T03:14:40.749Z",
+      "status": "ok",
+      "title": "Google",
+      "finalUrl": "https://www.google.com/"
+    }
+  ]
+}
