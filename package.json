@@ -12,6 +12,7 @@
     "dev": "eve dev",
     "eval": "eve eval",
     "start": "eve start",
+    "test": "node --test \"tests/**/*.test.ts\"",
     "typecheck": "tsc"
   },
   "dependencies": {
