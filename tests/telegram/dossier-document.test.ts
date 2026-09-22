@@ -36,9 +36,9 @@ describe("dossier document generator", () => {
   it("builds a dynamic document filename from the dossier path", () => {
     assert.equal(
       dossierDocumentFilename("dossiers/empresa-x/runs/2026-09-20_10-00-00_a1b2c3/dossie.md"),
-      "dossie_empresa-x.md",
+      "dossie-empresa-x.md",
     );
-    assert.equal(dossierDocumentFilename("dossiers/padaria-do-ze/latest/dossie.md"), "dossie_padaria-do-ze.md");
+    assert.equal(dossierDocumentFilename("dossiers/padaria-do-ze/latest/dossie.md"), "dossie-padaria-do-ze.md");
   });
 });
 
